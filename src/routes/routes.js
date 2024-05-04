@@ -10,10 +10,12 @@ export default function Routes(){
             <Stack.Screen
             name="Welcome"
             component={Welcome}
+            options={{headerShown: false}}
             />
             <Stack.Screen
             name="Home"
             component={Home}
+            options={{headerShown: false}}
             />
         </Stack.Navigator>
     )
